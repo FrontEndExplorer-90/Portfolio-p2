@@ -262,7 +262,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap">
 
             <a
-              href="#"
+              href="https://elegant-lebkuchen-c4df9d.netlify.app"
               className="px-8 py-4 border border-[#A67C52] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#A67C52] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -270,7 +270,7 @@ export default function App() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/FrontEndExplorer-90/SP2-Nook-Market.git"
               className="px-8 py-4 border border-white/10 text-zinc-400 uppercase tracking-[0.3em] text-xs hover:border-white/30 hover:text-white transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -339,7 +339,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap justify-end">
 
             <a
-              href="#"
+              href="https://magenta-tapioca-d2b55e.netlify.app"
               className="px-8 py-4 border border-[#D6B48A] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D6B48A] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -347,7 +347,7 @@ export default function App() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/FrontEndExplorer-90/holidayze-booking-app.git"
               className="px-8 py-4 border border-white/10 text-zinc-400 uppercase tracking-[0.3em] text-xs hover:border-white/30 hover:text-white transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -424,7 +424,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap">
 
             <a
-              href="#"
+              href="https://superb-gumdrop-a6ecb5.netlify.app"
               className="px-8 py-4 border border-white/20 text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-white hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -432,7 +432,7 @@ export default function App() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/NoroffFEU/jsfw-2025-v1-janina-javascriptframeworks.git"
               className="px-8 py-4 border border-white/10 text-zinc-400 uppercase tracking-[0.3em] text-xs hover:border-white/30 hover:text-white transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
