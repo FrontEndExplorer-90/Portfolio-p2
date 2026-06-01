@@ -1,6 +1,10 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function App() {
+
+  const [showEmail, setShowEmail] = useState(false);
+
   return (
     <main className="bg-[#090909] text-[#E8E1D9] overflow-hidden">
 
@@ -14,12 +18,15 @@ export default function App() {
         {/* Navigation */}
         <header className="absolute top-0 left-0 w-full z-20 px-8 py-6 flex items-center justify-between">
 
-          <div
-            className="uppercase tracking-[0.3em] text-sm text-[#A67C52]"
-            style={{ fontFamily: "Inter, sans-serif" }}
-          >
-            JM
-          </div>
+          <a href="#top">
+            <div
+              className="text-[#A67C52] text-2xl leading-none transition duration-500 hover:scale-105"
+              style={{ fontFamily: "Cinzel, serif" }}
+            >
+              JM
+            </div>
+          </a>
+
 
           <nav
             className="flex gap-8 uppercase tracking-[0.25em] text-xs text-zinc-500"
@@ -470,7 +477,7 @@ export default function App() {
             className="uppercase tracking-[0.4em] text-xs text-[#A67C52] mb-8"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
-            Final Frame
+            Contact
           </p>
 
           <h2
@@ -494,23 +501,28 @@ export default function App() {
             style={{ fontFamily: "Inter, sans-serif" }}
           >
 
-            <a
-              href="mailto:your@email.com"
+            <button
+              onClick={() => setShowEmail(!showEmail)}
               className="text-zinc-500 hover:text-[#E8E1D9] transition duration-500"
             >
-              Email
-            </a>
+              {showEmail
+                ? "janmey38613@stud.noroff.no"
+                : "Email"}
+            </button>
 
             <a
               href="https://github.com/FrontEndExplorer-90"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-zinc-500 hover:text-[#E8E1D9] transition duration-500"
             >
               GitHub
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/janina-meyer-07547b2b6/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-zinc-500 hover:text-[#E8E1D9] transition duration-500"
             >
               LinkedIn
@@ -519,7 +531,7 @@ export default function App() {
           </div>
 
           {/* Tiny Footer */}
-          <div className="mt-24 texttext-[#5A4635] text-xs tracking-[0.3em] uppercase">
+          <div className="mt-24 text-[#5A4635] text-xs tracking-[0.3em] uppercase">
 
             JANINA MEYER — 2026
 
