@@ -443,6 +443,82 @@ export default function App() {
         </motion.div>
       </section>
 
+      {/* ================= TRANSITION ================= */}
+
+      <div className="h-40 bg-gradient-to-b from-[#090909] via-[#111018] to-black"></div>
+
+      {/* ================= JSOCIAL SECTION ================= */}
+
+      <section className="relative min-h-screen flex items-center justify-end overflow-hidden px-6 md:px-20">
+
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url('https://i.postimg.cc/kG9x5LDY/Chat-GPT-Image-Jun-4-2026-06-55-54-PM.webp')",
+          }}
+        />
+
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-black/80"></div>
+
+        {/* Social Blue Glow */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_right,rgba(88,101,242,0.18),transparent_45%)]"></div>
+
+        <motion.div
+          className="relative z-10 max-w-2xl text-right"
+          initial={{ opacity: 0, y: 60 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: true }}
+        >
+
+          <p
+            className="uppercase tracking-[0.4em] text-xs text-[#7C8CFF] mb-6"
+            style={{ fontFamily: "Inter, sans-serif" }}
+          >
+            Featured Project
+          </p>
+
+          <h2
+            className="text-5xl md:text-7xl mb-8 leading-tight"
+            style={{ fontFamily: "Cinzel, serif" }}
+          >
+            JSOCIAL
+          </h2>
+
+          <p
+            className="text-zinc-300 text-lg leading-relaxed mb-10 ml-auto max-w-xl"
+            style={{ fontFamily: "Inter, sans-serif" }}
+          >
+            A social media platform where users can create posts,
+            follow profiles, manage personal content, and engage
+            with a shared digital community.
+          </p>
+
+          <div className="flex gap-4 flex-wrap justify-end">
+
+            <a
+              href="https://euphonious-swan-5f89d1.netlify.app/post/index.html"
+              className="px-8 py-4 border border-[#7C8CFF] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#7C8CFF] hover:text-black transition duration-500"
+            >
+              Enter Experience
+            </a>
+
+            <a
+              href="https://github.com/FrontEndExplorer-90/JSocial---FED2.git"
+              className="px-8 py-4 border border-white/10 text-zinc-400 uppercase tracking-[0.3em] text-xs hover:border-white/30 hover:text-white transition duration-500"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </motion.div>
+      </section>
+
+
       {/* ================= CONTACT / FOOTER SECTION ================= */}
 
       <section
