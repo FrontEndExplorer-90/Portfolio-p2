@@ -1,6 +1,14 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+import { Routes, Route } from "react-router-dom";
+
+import NookMarket from "./pages/NookMarket";
+import Holidaze from "./pages/Holidaze";
+import WebshopExperience from "./pages/WebshopExperience";
+import JSocial from "./pages/JSocial";
+import CSSFrameworks from "./pages/CSSFrameworks";
+
 export default function App() {
 
   const [showEmail, setShowEmail] = useState(false);
