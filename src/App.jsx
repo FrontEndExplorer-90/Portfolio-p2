@@ -531,7 +531,7 @@ export default function App() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('YOUR-CSS-FRAMEWORKS-IMAGE-HERE')",
+              "url('https://i.postimg.cc/RZPLc7gL/Chat-GPT-Image-Jun-5-2026-10-53-44-PM.webp')",
           }}
         />
 
