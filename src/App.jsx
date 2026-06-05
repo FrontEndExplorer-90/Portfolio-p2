@@ -576,7 +576,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap">
 
             <a
-              href="YOUR-LIVE-SITE"
+              href="https://gleeful-sundae-5317ff.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border border-[#D4A373] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D4A373] hover:text-black transition duration-500"
