@@ -12,7 +12,6 @@ export default function AppRoutes() {
       <Route path="/holidaze" element={<Holidaze />} />
       <Route path="/webshop" element={<WebshopExperience />} />
       <Route path="/jsocial" element={<JSocial />} />
-      <Route path="/cssframeworks" element={<CSSFrameworks />} />
     </Routes>
   );
 }

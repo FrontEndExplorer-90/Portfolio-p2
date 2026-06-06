@@ -271,7 +271,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap">
 
             <Link
-              to="/NookMarket"
+              to="/nookmarket"
               className="px-8 py-4 border border-[#A67C52] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#A67C52] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -348,7 +348,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap justify-end">
 
             <Link
-              to="/Holidaze"
+              to="/holidaze"
               className="px-8 py-4 border border-[#D6B48A] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D6B48A] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -433,7 +433,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap">
 
             <Link
-              to="/WebshopExperience"
+              to="/webshop"
               className="px-8 py-4 border border-white/20 text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-white hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
@@ -510,7 +510,7 @@ export default function App() {
           <div className="flex gap-4 flex-wrap justify-end">
 
             <Link
-              to="/JSocial"
+              to="/jsocial"
               className="px-8 py-4 border border-[#7C8CFF] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#7C8CFF] hover:text-black transition duration-500"
             >
               Enter Experience
