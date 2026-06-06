@@ -8,7 +8,9 @@ export default function NookMarket() {
                 Semester Project 2
             </p>
 
-            <h1 className="text-6xl md:text-8xl mb-10">
+            <h1 className="text-6xl md:text-8xl mb-10"
+                style={{ fontFamily: "Cinzel, serif" }}
+            >
                 The Nook Market
             </h1>
 
@@ -20,7 +22,10 @@ export default function NookMarket() {
 
             <div className="bg-[#111018] border border-white/10 rounded-3xl p-8 mb-16 hover:border-[#A67C52]/30 transition duration-500">
 
-                <h2 className="text-3xl mb-6">
+                <h2
+                    className="text-3xl mb-6"
+                    style={{ fontFamily: "Cinzel, serif" }}
+                >
                     Project Overview
                 </h2>
 

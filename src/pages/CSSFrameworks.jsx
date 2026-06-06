@@ -9,7 +9,9 @@ export default function CSSFrameworks() {
         CSS Frameworks
       </p>
 
-      <h1 className="text-6xl md:text-8xl mb-10">
+      <h1 className="text-6xl md:text-8xl mb-10"
+        style={{ fontFamily: "Cinzel, serif" }}
+      >
         CSS Frameworks Social Media
       </h1>
 
@@ -22,7 +24,10 @@ export default function CSSFrameworks() {
       <div className="bg-[#111018] border border-white/10 rounded-3xl p-8 mb-16 hover:border-[#D4A373]/30 transition duration-500">
 
 
-        <h2 className="text-3xl mb-6">
+        <h2
+          className="text-3xl mb-6"
+          style={{ fontFamily: "Cinzel, serif" }}
+        >
           Project Overview
         </h2>
 
