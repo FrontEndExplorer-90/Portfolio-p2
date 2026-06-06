@@ -208,11 +208,8 @@ export default function App() {
 
           </motion.div>
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#090909] pointer-events-none" />
       </section>
-
-      {/* ================= TRANSITION ================= */}
-
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= NOOK MARKET SECTION ================= */}
 
@@ -288,11 +285,9 @@ export default function App() {
 
           </div>
         </motion.div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#090909] pointer-events-none" />
       </section>
 
-      {/* ================= TRANSITION ================= */}
-
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= HOLIDAZE SECTION ================= */}
 
@@ -365,11 +360,8 @@ export default function App() {
 
           </div>
         </motion.div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#090909] pointer-events-none" />
       </section>
-
-      {/* ================= TRANSITION ================= */}
-
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= WEBSHOP EXPERIENCE SECTION ================= */}
 
@@ -450,11 +442,9 @@ export default function App() {
 
           </div>
         </motion.div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#090909] pointer-events-none" />
       </section>
 
-      {/* ================= TRANSITION ================= */}
-
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= JSOCIAL SECTION ================= */}
 
@@ -526,9 +516,9 @@ export default function App() {
           </div>
 
         </motion.div>
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-gradient-to-b from-transparent to-[#090909] pointer-events-none" />
       </section>
-      
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
+
 
       {/* ================= CONTACT / FOOTER SECTION ================= */}
 
