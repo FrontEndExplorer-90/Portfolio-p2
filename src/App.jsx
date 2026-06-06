@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import AppRoutes from "./AppRoutes";
+import BackToTop from "./BackToTop";
 
 export default function App() {
 
@@ -617,6 +618,7 @@ export default function App() {
         </motion.div>
       </section>
       <div className="h-32 bg-[#090909]"></div>
+      <BackToTop />
     </main>
   );
 }
