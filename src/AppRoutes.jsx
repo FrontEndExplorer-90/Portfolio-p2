@@ -4,7 +4,6 @@ import NookMarket from "./pages/NookMarket";
 import Holidaze from "./pages/Holidaze";
 import WebshopExperience from "./pages/WebshopExperience";
 import JSocial from "./pages/JSocial";
-import CSSFrameworks from "./pages/CSSFrameworks";
 
 export default function AppRoutes() {
   return (

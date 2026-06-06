@@ -494,7 +494,7 @@ export default function App() {
             className="text-5xl md:text-7xl mb-8 leading-tight"
             style={{ fontFamily: "Cinzel, serif" }}
           >
-            JSOCIAL
+            CSS FRAMEWORKS SOCIAL MEDIA
           </h2>
 
           <p
