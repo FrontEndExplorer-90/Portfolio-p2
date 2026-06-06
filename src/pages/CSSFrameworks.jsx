@@ -17,7 +17,7 @@ export default function CSSFrameworks() {
 
       <img
         src="https://i.postimg.cc/RZPLc7gL/Chat-GPT-Image-Jun-5-2026-10-53-44-PM.webp"
-        alt="CSS Frameworks Social Media Project"
+        alt="Featured showcase image for the CSS Frameworks course assignment."
         className="w-full rounded-3xl mb-16"
       />
 

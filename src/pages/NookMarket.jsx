@@ -16,7 +16,7 @@ export default function NookMarket() {
 
             <img
                 src="https://i.postimg.cc/Px5jVggG/Nook-Market-Banner.webp"
-                alt="The Nook Market"
+                alt="Featured showcase image for The Nook Market project."
                 className="w-full rounded-3xl mb-16"
             />
 

@@ -17,7 +17,7 @@ export default function Holidaze() {
 
       <img
         src="https://i.postimg.cc/Mp0MTvkW/Chat-GPT-Image-Apr-27-2026-02-41-00-PM.webp"
-        alt="Holidaze"
+        alt="Featured showcase image for the Holidaze booking platform."
         className="w-full rounded-3xl mb-16"
       />
 

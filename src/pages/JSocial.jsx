@@ -17,7 +17,7 @@ export default function JSocial() {
 
       <img
         src="https://i.postimg.cc/kG9x5LDY/Chat-GPT-Image-Jun-4-2026-06-55-54-PM.webp"
-        alt="JSocial"
+        alt="Featured showcase image for the JSocial social media application."
         className="w-full rounded-3xl mb-16"
       />
 

@@ -17,7 +17,7 @@ export default function WebshopExperience() {
 
       <img
         src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop"
-        alt="Webshop Experience"
+        alt="Featured showcase image for the Webshop Experience project."
         className="w-full rounded-3xl mb-16"
       />
 
