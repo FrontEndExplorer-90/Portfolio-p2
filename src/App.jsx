@@ -212,7 +212,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-40 bg-gradient-to-b from-[#090909] via-[#120B0B] to-black"></div>
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= NOOK MARKET SECTION ================= */}
 
@@ -292,7 +292,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-20 bg-gradient-to-b from-black via-[#2B1A12] to-[#090909]" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= HOLIDAZE SECTION ================= */}
 
@@ -369,7 +369,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-20 bg-gradient-to-b from-black via-[#151515] to-[#090909]" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= WEBSHOP EXPERIENCE SECTION ================= */}
 
@@ -454,7 +454,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-20 bg-gradient-to-b from-black via-[#0F1024] to-[#090909]" />
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= JSOCIAL SECTION ================= */}
 
@@ -527,7 +527,8 @@ export default function App() {
 
         </motion.div>
       </section>
-
+      
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#090909]" />
 
       {/* ================= CONTACT / FOOTER SECTION ================= */}
 
