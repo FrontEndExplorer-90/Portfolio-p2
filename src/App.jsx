@@ -292,7 +292,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-40 bg-gradient-to-b from-black via-[#140D0A] to-[#090909]"></div>
+      <div className="h-20 bg-gradient-to-b from-black via-[#2B1A12] to-[#090909]" />
 
       {/* ================= HOLIDAZE SECTION ================= */}
 
@@ -369,7 +369,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-40 bg-gradient-to-b from-[#140D0A] via-black to-[#090909]"></div>
+      <div className="h-20 bg-gradient-to-b from-black via-[#151515] to-[#090909]" />
 
       {/* ================= WEBSHOP EXPERIENCE SECTION ================= */}
 
@@ -454,7 +454,7 @@ export default function App() {
 
       {/* ================= TRANSITION ================= */}
 
-      <div className="h-40 bg-gradient-to-b from-[#090909] via-[#111018] to-black"></div>
+      <div className="h-20 bg-gradient-to-b from-black via-[#0F1024] to-[#090909]" />
 
       {/* ================= JSOCIAL SECTION ================= */}
 
