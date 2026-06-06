@@ -501,9 +501,10 @@ export default function App() {
             className="text-zinc-300 text-lg leading-relaxed mb-10 ml-auto max-w-xl"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
-            A social media platform where users can create posts,
-            follow profiles, manage personal content, and engage
-            with a shared digital community.
+            A social media platform developed using Bootstrap and responsive design principles
+            for the CSS Frameworks CA.
+            Here users can create posts,follow profiles,
+            manage personal content, and engage with a shared digital community.
           </p>
 
           <div className="flex gap-4 flex-wrap justify-end">
@@ -525,85 +526,6 @@ export default function App() {
           </div>
 
         </motion.div>
-      </section>
-
-      {/* ================= TRANSITION ================= */}
-
-      <div className="h-40 bg-gradient-to-b from-[#090909] via-[#111018] to-black"></div>
-
-      {/* ================= CSS FRAMEWORKS SOCIAL MEDIA ================= */}
-
-      <section className="relative min-h-screen flex items-center justify-start overflow-hidden px-6 md:px-20">
-
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://i.postimg.cc/RZPLc7gL/Chat-GPT-Image-Jun-5-2026-10-53-44-PM.webp')",
-          }}
-        />
-
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/80"></div>
-
-        {/* Accent Glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_left,rgba(245,158,11,0.18),transparent_45%)]"></div>
-
-        <motion.div
-          className="relative z-10 max-w-2xl"
-          initial={{ opacity: 0, y: 60 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2 }}
-          viewport={{ once: true }}
-        >
-
-          <p
-            className="uppercase tracking-[0.4em] text-xs text-[#D4A373] mb-6"
-            style={{ fontFamily: "Inter, sans-serif" }}
-          >
-            Earlier Project
-          </p>
-
-          <h2
-            className="text-5xl md:text-7xl mb-8 leading-tight"
-            style={{ fontFamily: "Cinzel, serif" }}
-          >
-            CSS FRAMEWORKS
-          </h2>
-
-          <p
-            className="text-zinc-300 text-lg leading-relaxed mb-10 max-w-xl"
-            style={{ fontFamily: "Inter, sans-serif" }}
-          >
-            A social media application developed using Bootstrap and responsive
-            design principles. The project focused on creating an accessible,
-            visually consistent user experience while exploring component-based
-            layouts and modern frontend workflows.
-          </p>
-
-          <div className="flex gap-4 flex-wrap">
-
-            <Link
-              to="/cssframeworks"
-              className="px-8 py-4 border border-[#D4A373] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D4A373] hover:text-black transition duration-500"
-            >
-              Enter Experience
-            </Link>
-
-            <a
-              href="https://github.com/FrontEndExplorer-90/CCSframeworksCA.git"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 border border-white/10 text-zinc-400 uppercase tracking-[0.3em] text-xs hover:border-white/30 hover:text-white transition duration-500"
-            >
-              GitHub
-            </a>
-
-          </div>
-
-        </motion.div>
-
       </section>
 
 
