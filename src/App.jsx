@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-import { Routes, Route } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-import NookMarket from "./pages/NookMarket";
-import Holidaze from "./pages/Holidaze";
-import WebshopExperience from "./pages/WebshopExperience";
-import JSocial from "./pages/JSocial";
-import CSSFrameworks from "./pages/CSSFrameworks";
+import AppRoutes from "./AppRoutes";
 
 export default function App() {
 
+  const location = useLocation();
   const [showEmail, setShowEmail] = useState(false);
+
+  if (location.pathname !== "/") {
+    return <AppRoutes />;
+  }
 
   return (
     <main className="bg-[#090909] text-[#E8E1D9] overflow-hidden">
@@ -269,13 +270,13 @@ export default function App() {
 
           <div className="flex gap-4 flex-wrap">
 
-            <a
-              href="https://elegant-lebkuchen-c4df9d.netlify.app"
+            <Link
+              to="/nookmarket"
               className="px-8 py-4 border border-[#A67C52] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#A67C52] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               Enter Experience
-            </a>
+            </Link>
 
             <a
               href="https://github.com/FrontEndExplorer-90/SP2-Nook-Market.git"
@@ -346,13 +347,13 @@ export default function App() {
 
           <div className="flex gap-4 flex-wrap justify-end">
 
-            <a
-              href="https://magenta-tapioca-d2b55e.netlify.app"
+            <Link
+              to="/holidaze"
               className="px-8 py-4 border border-[#D6B48A] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D6B48A] hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               Enter Experience
-            </a>
+            </Link>
 
             <a
               href="https://github.com/FrontEndExplorer-90/holidayze-booking-app.git"
@@ -431,13 +432,13 @@ export default function App() {
 
           <div className="flex gap-4 flex-wrap">
 
-            <a
-              href="https://superb-gumdrop-a6ecb5.netlify.app"
+            <Link
+              to="/webshop"
               className="px-8 py-4 border border-white/20 text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-white hover:text-black transition duration-500"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               Enter Experience
-            </a>
+            </Link>
 
             <a
               href="https://github.com/NoroffFEU/jsfw-2025-v1-janina-javascriptframeworks.git"
@@ -507,12 +508,12 @@ export default function App() {
 
           <div className="flex gap-4 flex-wrap justify-end">
 
-            <a
-              href="https://euphonious-swan-5f89d1.netlify.app/post/index.html"
+            <Link
+              to="/jsocial"
               className="px-8 py-4 border border-[#7C8CFF] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#7C8CFF] hover:text-black transition duration-500"
             >
               Enter Experience
-            </a>
+            </Link>
 
             <a
               href="https://github.com/FrontEndExplorer-90/JSocial---FED2.git"
@@ -583,14 +584,12 @@ export default function App() {
 
           <div className="flex gap-4 flex-wrap">
 
-            <a
-              href="https://gleeful-sundae-5317ff.netlify.app"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/cssframeworks"
               className="px-8 py-4 border border-[#D4A373] text-[#E8E1D9] uppercase tracking-[0.3em] text-xs hover:bg-[#D4A373] hover:text-black transition duration-500"
             >
               Enter Experience
-            </a>
+            </Link>
 
             <a
               href="https://github.com/FrontEndExplorer-90/CCSframeworksCA.git"
